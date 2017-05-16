@@ -1,31 +1,54 @@
 .jumbotron {
   text-align: center;
   font-family: 'Inknut Antiqua', serif;
-  background-image: url(../img/house2.jpg);
+  background-image: url(../img/housing1.jpg);
   background-repeat: no-repeat;
-  background-size: ;
+  background-size: cover;
   height: 500px;
   background-position: center;
   color: skyblue;
   background-color: black;
   transition: background-image 2.0s ease;
 }
+.navbar {
+  margin-bottom: 0px;
+}
 .jumbotron p {
   color: black;
 }
 .jumbotron:hover {
-  background-image: url(../img/house1.jpg);
+  background-image: url(../img/house2.jpg);
   background-color: white;
   transition: background-image 2.0s ease;
 }
 .description {
-  font-size: 25px;
-  text-align: center;
-  height: 300px;
   font-family: 'Lobster', cursive;
+  height: auto;
+}
+.descript {
+  font-size: 30px;
+  text-align: center;
+}
+.descript1 {
+  font-size: 25px;
+}
+.descript2 {
+  font-size: 20px;
 }
 .subscribe {
   background-image: url(../img/housing3.jpg);
-  height: 200px;
-  background-repeat: repeat-x;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Tangerine', cursive;
+  font-size: 30px;
+  background-size: cover;
+}
+#email {
+  width: 500px;
+  font-size: 25px
+}
+#subscription {
+  padding-top: 65px;
+  align-items: center;
 }

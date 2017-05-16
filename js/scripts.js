@@ -1,3 +1,5 @@
 $(document).ready(function() {
-  $('dropdown-toggle').dropdown()
+  $("form#subscription").submit(function(event) {
+    event.preventDefault();
+  });
 });
