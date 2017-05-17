@@ -7,22 +7,22 @@
   color: blue;
 }
 
-header{
+header {
   font-family: cursive;
   border-bottom: solid;,:red;
   background-image: url();
 }
 
-h2{
+h2 {
   color: blue;
   font-size: 40px;
   text-align: center;
   font-family: fantasy;
 }
 
-h2:hover{
+h2:hover {
   color: red;
-  cursor:pointer;
+  cursor: pointer;
   font-size: 50px;
 }
 
@@ -121,4 +121,8 @@ h4{
   text-align: center;
   font-size: 40px;
   padding-top: 20px;
+}
+.logo {
+  width: 100px;
+  height: 25px;
 }
