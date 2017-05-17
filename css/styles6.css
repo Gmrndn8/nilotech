@@ -1,0 +1,47 @@
+.head1{
+  font-size: 60px;
+  color: blue;
+}
+
+h3{
+  color: blue;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 45px;
+}
+
+.jumbotron-first{
+  background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2013/12/home-wallpaper-25.jpg);
+ text-align: left;
+ background-color: inherit;
+ text-shadow: black;
+}
+
+.jumbotron-second{
+  background-image: url(http://cdn.wallpapersafari.com/4/66/9neIVD.jpg);
+ text-align: left;
+ text-shadow: black;
+}
+
+ .jumbotron-third{
+   background-image: url(https://s-media-cache-ak0.pinimg.com/originals/6b/a2/72/6ba272045e649a9d543e24d6a6aee5fc.jpg);
+   text-align: left;
+   text-shadow: black;
+}
+
+.jumbotron-fourth{
+  background-image: url(https://static1.squarespace.com/static/55b2c40de4b0bb795dd1cce4/55cd35eae4b0ef8aac66165f/55ce5dd2e4b00c260f25967a/1439587796210/El+Dorado.jpg?format=2500w);
+ text-align: left;
+ text-shadow: black;
+}
+
+
+p{
+ font-family: cursive;
+ color: white;
+ font-weight: bold;
+ font-size: 40px;
+}
+a.rent{
+ align-self: center;
+}
