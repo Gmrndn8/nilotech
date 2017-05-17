@@ -1,0 +1,57 @@
+.jumbotron {
+  padding: 10px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.jumbotron-first {
+  text-align: left;
+  background-color: black;
+  text-shadow: black;
+  opacity: 0.8;
+  color: white;
+  font-style: italic;
+}
+
+.jumbotron-second {
+  text-align: left;
+  background-color: black;
+  text-shadow: black;
+  opacity: 0.8;
+  color: white;
+  font-style: italic;
+}
+
+.jumbotron-third {
+  text-align: left;
+  background-color: black;
+  text-shadow: black;
+  opacity: 0.8;
+  color: white;
+  font-style: italic;
+}
+
+.jumbotron-fourth {
+  text-align: left;
+  background-color: black;
+  text-shadow: black;
+  opacity: 0.8;
+  color: white;
+  font-style: italic;
+}
+
+p {
+  font-family: helvetica;
+}
+
+a.rent {
+  align-self: center;
+}
+
+.Rent {
+  background-color: #0000ff;
+}
+
+body {
+  background-image: url("..//img/back.jpg");
+}
