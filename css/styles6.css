@@ -45,3 +45,6 @@ p{
 a.rent{
  align-self: center;
 }
+body {
+  background-image: url(../img/back.jpg);
+}

@@ -7,22 +7,22 @@
   color: blue;
 }
 
-header{
+header {
   font-family: cursive;
   border-bottom: solid;,:red;
   background-image: url();
 }
 
-h2{
+h2 {
   color: blue;
   font-size: 40px;
   text-align: center;
   font-family: fantasy;
 }
 
-h2:hover{
+h2:hover {
   color: red;
-  cursor:pointer;
+  cursor: pointer;
   font-size: 50px;
 }
 
@@ -99,21 +99,21 @@ body li {
   height: 250px;
   float: left;
   text-align: center;
-  padding: 10px;
   color: blue;
   font-family: cursive;
-  font-size: 18px;
+  font-size: 10px;
+  padding: 25px;
 }
 
 #boxes h5{
-  font-size: 30px;
+  font-size: 15px;
   font-family: cursive;
 }
 
 /*images*/
 img {
-  height: 280px;
-  width: 300px;
+  height: 180px;
+  width: 200px;
 }
 
 h4{
@@ -121,4 +121,20 @@ h4{
   text-align: center;
   font-size: 40px;
   padding-top: 20px;
+}
+.logo {
+  width: 100px;
+  height: 25px;
+}
+
+/*footer*/
+.footer{
+  background-image: url(http://wol-silverlake.com/wp-content/themes/silverlake/img/backgrounds/contact_us_bg.jpg);
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  width: auto;
+}
+#outer{
+  color: blue;
 }
