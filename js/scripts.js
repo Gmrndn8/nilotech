@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  $("form#subscription").submit(function(event) {
-    event.preventDefault();
+  $("a.showPrice").click(function() {
+    $("span.price").toggle(3000);
   });
-  $("a.rent").click(function() {
-
+  $("span#pay").click(function() {
+    $("p#last").show(4000);
   });
 });
 
