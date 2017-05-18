@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles9.css" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <link rel="icon" href="img/Logomakr_63391z.png">
+    <title>Payment Plans</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+          <a class="navbar-brand" href="index.html"><img src="img/Logomakr_63391z.png" width="100px" height="25px"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">For Rent<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="nairobi-rentals.html">Nairobi</a></li>
+                <li><a href="mombasa-rentals.html">Mombasa</a></li>
+                <li><a href="nakuru.html">Nakuru</a></li>
+                <li><a href="eldoret.html">Eldoret</a></li>
+                <li><a href="kisumu.html">Kisumu</a></li>
+              </ul>
+            </li>
+            <li><a href="about us.html">About Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Sign In/Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="col-md-6">
+    <p>Now that you've chosen a house you are required to pick one of the payments below.</p>
+    <ul>
+      <li><input type="radio" value="mastercard" name="payment">Master Card<img src="img/pay1.png"></li>
+      <li><input type="radio" value="paypal" name="payment">Pay<img src="img/pay2.png"></li>
+      <li><input type="radio" value="m-pesa" name="payment">M-Pesa<img src="img/pay3.jpg"></li>
+      <li><input type="radio" value="visa" name="payment">Visa<img src="img/pay4.png"></li>
+    </ul>
+    <span class="btn btn-primary btn-lg" id="pay">Confirm plan</span>
+    </div>
+    <div class="col-md-6">
+    <p id="last">You have succesfully rented a house. Congragulations</p>
+    </div>
+  </body>
+</html>
