@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/register.css" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/register.js" type="text/javascript">
+  </script>
+</head>
+
+<body>
+  <div class="container">
+
+    <fieldset>
+      <h1>Welcome!</h1>
+
+
+      <ul class="tab-group">
+        <li id="signUp"class="tab active"><a href="#signup">Sign Up</a></li>
+        <li id="logIn" class="tab"><a href="#login">Log In</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="row" id="signup">
+          <form role="form" action="confirm.html" method="post" onsubmit="
+           if(validate(this) == false) return false; addClient(this);">
+
+            <div class="form-group">
+
+              <label for="name">Full Names:</label>
+              <input class="form-control" name="fullname" type="text" placeholder="Enter Full Name" required><span id="myName"></span>
+              <label for="email">Email Address:</label>
+              <input class="form-control" name="emailaddress" type="email" placeholder="Enter Email" required><span id="myEmail"></span>
+              <label for="contacts">Contacts</label>
+              <input class="form-control" name="contactno" type="contacts" placeholder="Enter Contacts" required><span id="myContacts"></span>
+              <label for="password">Password:</label>
+              <input class="form-control" name="password" type="password" placeholder="Enter Password" required><span id="myPwd"></span>
+              <label for="password"><b>Repeat Password</b></label>
+              <input class="form-control" name="repassword" type="password" placeholder="Repeat Password" required><span id="myRepwd"></span>
+              <input type="checkbox" checked="checked"> Remember me
+              <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+              <button class="btn btn-primary" type="submit">Get Started</button>
+              <button type="reset" name="cancel" class="btn btn-danger">Cancel</button>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </fieldset>
+
+
+<fieldset>
+        <div class="row" id="login">
+        <form name="login">
+            Email<input type="text" name="userEmail"/>
+            Password<input type="password" name="pswrd"/>
+            <input type="button" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel"/>
+        </form>
+
+
+        </div>
+      </fieldset>
+
+  </div>
+
+</body>
+
+</html>
